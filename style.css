@@ -12,13 +12,18 @@ body,
   justify-content: space-around;
 }
 .BoxDesign {
-  border-style: dashed;
   text-align: center;
   position: relative;
+  object-fit: cover;
   width: 32%;
   width: fit-content;
+  box-shadow: 0 0 0.5rem black;
 }
 .BoxDesign img {
   position: relative;
-  width: 40%;
+  width: 100%;
+  object-fit: cover;
+}
+h1 {
+  text-align: center;
 }
