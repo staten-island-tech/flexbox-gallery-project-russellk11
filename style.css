@@ -20,6 +20,7 @@ body,
   width: fit-content;
   box-shadow: 0 0 0.5rem black;
   color: pink;
+  position: relative;
 }
 .BoxDesign img {
   position: relative;
