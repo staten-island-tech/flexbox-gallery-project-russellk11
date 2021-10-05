@@ -30,3 +30,19 @@ body,
 h1 {
   text-align: center;
 }
+#Hair9:hover {
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+}
+#Hair8:hover {
+  transform: rotate(180deg);
+  transition-duration: 1s;
+}
+#Hair7:hover {
+  transform: skew(30deg);
+  transition-duration: 0.3s;
+}
+#Hair6:hover {
+  transform: translateY(-30px);
+  transition-duration: 0.3s;
+}
