@@ -7,6 +7,24 @@ body,
   box-sizing: border-box;
   animation: 4s ease-out 0.0001s 1 intro;
 }
+@media screen and (max-width: 1050px) {
+  .BoxDesign {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Boxes {
+    width: 120%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .BoxDesign {
+    flex-flow: column;
+    width: 30%;
+  }
+}
+
 @keyframes intro {
   0% {
     transform: scale(0.5);
@@ -23,18 +41,16 @@ body,
 }
 .BoxDesign {
   text-align: center;
-  position: relative;
-  object-fit: cover;
-  width: 32%;
-  width: fit-content;
+  max-width: 100%;
   box-shadow: 0 0 0.5rem black;
   color: pink;
-  position: relative;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 .BoxDesign img {
   position: relative;
   width: 100%;
-  object-fit: cover;
+  display: block;
 }
 h1 {
   text-align: center;
@@ -58,16 +74,4 @@ h1 {
 #Hair4:hover {
   transform: translateX(100px);
   transition-duration: 0.3s;
-}
-
-@media all (orientation: landscape) {
-  .Boxes {
-    width: 20%;
-  }
-}
-
-@media all (max-width: 1285px) {
-  .Boxes {
-    width: 60%;
-  }
 }
