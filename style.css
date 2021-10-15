@@ -7,6 +7,9 @@ body,
   box-sizing: border-box;
   animation: 4s ease-out 0.0001s 1 intro;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+
 @media screen and (max-width: 1050px) {
   .BoxDesign {
     width: 80%;
@@ -46,6 +49,7 @@ body,
   color: pink;
   flex-grow: 0;
   flex-shrink: 0;
+  font-family: "IM Fell English SC", serif;
 }
 .BoxDesign img {
   position: relative;
