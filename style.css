@@ -6,9 +6,9 @@ body,
   margin: 0;
   box-sizing: border-box;
   animation: 4s ease-out 0.0001s 1 intro;
+  font-family: "IM Fell English", serif;
+  font-size: 62.5%;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
 
 @media screen and (max-width: 1050px) {
   .BoxDesign {
@@ -50,6 +50,7 @@ body,
   flex-grow: 0;
   flex-shrink: 0;
   font-family: "IM Fell English SC", serif;
+  font-size: 3rem;
 }
 .BoxDesign img {
   position: relative;
@@ -58,6 +59,8 @@ body,
 }
 h1 {
   text-align: center;
+  font-family: "IM Fell English SC", serif;
+  font-size: 10rem;
 }
 #Hair9:hover {
   transform: scale(1.2);
